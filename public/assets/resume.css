@@ -1,0 +1,96 @@
+body {
+    background: #333;
+    color: aliceblue;
+}
+
+h1 {
+    color: gold;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.header {
+    border-bottom: solid 1px aliceblue;
+    margin-bottom: 25px;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+.rowlink {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resumenav {
+    padding: 0px;
+}
+  
+.resumenav li {
+    display: inline-block;
+}
+  
+.resumenav a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    float: center;
+    width: 75px;
+    padding: 5px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resumebody {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-subject {
+    border-left: solid 10px gold;
+    flex: 1;
+    margin: 10px 25px;
+}
+
+.body-subject2 {
+    border-left: solid 10px aliceblue;
+    flex: 1;
+    margin: 10px 25px;
+}
+
+.subtitle {
+    color: aliceblue;
+    flex: 1;
+    padding-left: 25px;
+}
+
+.job-timeline {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.job-name {
+    flex: 1;
+}
+
+.timeline {
+    flex: 1;
+    text-align: right;
+    padding-right: 75px;
+}
+
+.skills {
+    margin-top: 0px;
+    padding-left: 75px;
+}
+
+.edu-desc {
+    padding-left: 70px;
+    margin-top: 0px;
+}

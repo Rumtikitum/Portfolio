@@ -1,0 +1,361 @@
+/**General Site Color*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+
+body {
+    background-color: white;
+}
+
+
+
+
+
+/**Navigation Bar Qualities....Teal Bar, White Letters, and changes to black when hovered over. Contact button will be emphasized with black always*/
+.container-1 .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: teal;
+}
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    float: center;
+    width: 150px;
+    padding: 25px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar .right {
+    float: right;
+    background: black;
+  }
+
+
+  /*Change the link color to #111 (black) on hover*/
+  .navbar a:hover {
+    background-color: #111;
+  }
+
+  
+
+
+/**Hero Banner. Img of Self along with Name and subtitle (short description of self)*/
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}   
+    
+.container-2 section {    
+    flex-direction: row;
+}
+
+.hero-img {
+    display: block;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+/*(Name) Banner Qualities*/
+
+.intro {
+    flex: 1;
+    font-size: 25px;
+    font-style: italic;
+    margin: auto;
+    text-align: left;
+}
+
+.richie {
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: -45px;
+}
+
+.tauch {
+    color: teal;
+    text-indent: 100px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
+
+/*About me Begins*/
+
+#mystory {
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.para {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    font-size: 35px;
+    color: white;
+    margin: auto;
+}
+
+.about {
+    padding: 10px;
+    border: 5px solid black;
+    margin-bottom: 5px;
+}
+
+/*Call to action button*/
+
+.button {
+    background-color: teal; 
+    border: white solid 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+/*img2*/
+
+.chump {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+/*Projext location. Currently only one project to my name*/
+
+#projects {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.PROJECT {
+    flex: 1;
+    color: teal;
+    margin: 5px auto;
+    padding: 5px auto;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.work {
+    border: teal solid 5px;
+}
+    
+
+.theworks {
+    flex: 5;
+    margin: 1px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.brickbaby1 {
+    flex: 1;
+}
+
+.brickbaby2 {
+    flex: 1;
+}
+
+/*opacity of project links (hover to no opacity)*/
+.runbuddy {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.runbuddy:hover {
+    opacity: 1;
+}
+
+
+
+
+/*Contact Section*/
+#contact-me {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacttitle {
+    text-align: center;
+    flex: 1;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contactline {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactline p {
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;   
+}
+
+
+
+
+/*Resizing Images and font to ensure site is responsive to different screen sizes. Allow user to shrink page (keep site readable)*/
+/*Allow items to be horizontal or verticle depending on screen size*/
+@media screen and (max-width: 1250px) {
+    .runbuddy {
+        width: 740px;
+    }
+
+    #aboutme {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    
+
+    .container-2 {
+        flex-direction: column-reverse;
+    }
+
+    .hero-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    #mystory {
+        flex-direction: column;
+    }
+
+    .contactline p {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .navbar a {
+        font-size: 10px;
+        padding: 10px 8px;
+        width: 75px;
+    }
+
+    .navbar #black-nav {
+        font-size: 8px;
+      }
+
+    img {
+        width: 400px;
+        }
+
+    .work {
+        font-size: 50px;
+    }
+
+    .runbuddy {
+        width: 400px;
+    }
+
+    #contact-me {
+        margin-bottom: -30px;
+    }
+
+    #m3 {
+        margin-top: -60px;
+        margin-bottom: -30px;
+    }
+
+    .contactline p {
+        font-size: 15px;
+    }
+
+    .contacttitle {
+        font-size: 35px;
+    }
+}
+
+
+/*Site is still readable and visually appealing on Iphone 12 screen size*/
+@media screen and (max-width: 470px) {
+    .richie {
+        font-size: 75px;
+        text-align: center;
+        margin-bottom: -35px;
+    }
+    .tauch {
+        text-align: center;
+        font-size: 75px;
+    }
+    .subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    img {
+        width: 300px;
+    }
+
+    #aboutme {
+        font-size: 17px;
+    }
+
+    .runbuddy {
+        width: 355px;
+    }
+
+    .about {
+        font-size: 17px;
+    }
+
+    .work {
+        font-size: 25px;
+    }
+
+
+    .contacttitle {
+        font-size: 20px;
+    }
+
+    .contactline {
+        flex-direction: column;
+       
+    }
+
+    .contactline p {
+        font-size: 15px; 
+        margin-bottom: 0px;
+    }
+}
+    
