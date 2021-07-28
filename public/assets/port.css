@@ -4,13 +4,14 @@
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', serif;
+    scroll-behavior: smooth;
+
 }
 
 
 body {
     background-color: white;
 }
-
 
 
 
@@ -137,7 +138,6 @@ i {
 .paraalt {
     flex: 1;
     text-align: center;
-    padding: 40px;
     font-size: 25px;
     padding: 150px;
     color: #1f1f2e;
@@ -145,7 +145,7 @@ i {
 }
 
 .skills {
-    padding: 10px;
+    padding: 1px;
     border-bottom: 5px solid teal;
     margin-bottom: 5px;
 }
@@ -154,20 +154,26 @@ i {
 .skillz {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 5px;
 
 }
 
 .minortab {
     border-bottom: goldenrod solid 5px;
     font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .skillstopic {
     color: white;
-    margin: 30px;
+    padding: 35px;
+    margin: 2px;
     flex: 1;
     background-color: #1f1f2e;
+}
+
+.spec {
+    font-size: 20px;
 }
 
 /*Call to action button*/
@@ -200,21 +206,22 @@ i {
     background-color: #1f1f2e;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    padding: 150px;
+
 }
 
 .PROJECT {
     flex: 1;
-    color: teal;
+    color: white;
     margin: 5px auto;
     padding: 5px auto;
-    font-size: 50px;
+    font-size: 37.5px;
     width: 100%;
     text-align: center;
 }
 
 .work {
-    border: teal solid 5px;
+    border-bottom: goldenrod solid 5px;
 }
     
 
@@ -227,13 +234,6 @@ i {
 }
 
 
-.brickbaby1 {
-    flex: 1;
-}
-
-.brickbaby2 {
-    flex: 1;
-}
 
 /*opacity of project links (hover to no opacity)*/
 .runbuddy {
@@ -250,7 +250,7 @@ i {
 
 /*Contact Section*/
 #contact-me {
-    background-color: teal;
+    background-color: goldenrod;
     display: flex;
     flex-direction: column;
 }
@@ -258,8 +258,9 @@ i {
 .contacttitle {
     text-align: center;
     flex: 1;
-    font-size: 45px;
-    color: white;
+    font-size: 37.5px;
+    color: #1f1f2e;
+
     margin-bottom: 10px;
 }
 
@@ -274,7 +275,7 @@ i {
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
-    color: white;   
+    color: #1f1f2e;   
 }
 
 
