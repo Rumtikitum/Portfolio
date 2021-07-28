@@ -21,6 +21,7 @@ body {
     margin: 0;
     padding: 0;
     background: teal;
+    border-bottom: goldenrod solid 5px;
 }
   
   .navbar li {
@@ -41,13 +42,13 @@ body {
 
   .navbar .right {
     float: right;
-    background: black;
+    background: #1f1f2e;
   }
 
 
   /*Change the link color to #111 (black) on hover*/
   .navbar a:hover {
-    background-color: #111;
+    background-color: #1f1f2e;
   }
 
   
@@ -82,7 +83,7 @@ body {
 }
 
 .richie {
-    color: black;
+    color: #1f1f2e;
     font-size: 100px;
     font-weight: bold;
     margin-bottom: -45px;
@@ -103,6 +104,7 @@ body {
     background-color: #1f1f2e;
     display: flex;
     flex-wrap: wrap;
+    border-bottom: goldenrod solid 5px;
 }
 
 .para {
@@ -123,6 +125,49 @@ body {
 
 i {
     font: 200px;
+}
+
+/*Specialties Begins*/
+
+#myskills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paraalt {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+    padding: 150px;
+    color: #1f1f2e;
+    margin: auto;
+}
+
+.skills {
+    padding: 10px;
+    border-bottom: 5px solid teal;
+    margin-bottom: 5px;
+}
+
+
+.skillz {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.minortab {
+    border-bottom: goldenrod solid 5px;
+    font-weight: bold;
+}
+
+.skillstopic {
+    color: white;
+    margin: 30px;
+    flex: 1;
+    background-color: #1f1f2e;
 }
 
 /*Call to action button*/
@@ -152,7 +197,7 @@ i {
 
 #projects {
     display: flex;
-    background-color: white;
+    background-color: #1f1f2e;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
