@@ -172,6 +172,15 @@ i {
     background-color: #1f1f2e;
 }
 
+.skillstopic2 {
+    color: white;
+    padding: 35px;
+    margin: 2px;
+    flex: 1;
+    background-color: teal;
+}
+
+
 .spec {
     font-size: 20px;
 }
@@ -410,3 +419,6 @@ i {
     }
 }
     
+.para {
+    padding: 20px;
+}
