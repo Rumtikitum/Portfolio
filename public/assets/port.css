@@ -417,8 +417,8 @@ i {
         font-size: 15px; 
         margin-bottom: 0px;
     }
+    .para {
+        padding: 20px;
+    }
 }
     
-.para {
-    padding: 20px;
-}
