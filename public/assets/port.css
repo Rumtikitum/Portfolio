@@ -127,6 +127,7 @@ body {
 i {
     font: 200px;
 }
+/* --------------------------------------------------------------- */
 
 /*Specialties Begins*/
 
@@ -143,7 +144,6 @@ i {
     color: #1f1f2e;
     margin: auto;
 }
-
 .skills {
     padding: 1px;
     border-bottom: 5px solid teal;
@@ -181,6 +181,60 @@ i {
 }
 
 
+/* ------------------------------------------------------------------------ */
+#mywork {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f1f2e;
+}
+
+.paraalt2 {
+    flex: 1;
+    text-align: center;
+    font-size: 25px;
+    padding: 150px;
+    color: white;
+    margin: auto;
+}
+
+
+.skills {
+    padding: 1px;
+    border-bottom: 5px solid teal;
+    margin-bottom: 5px;
+}
+
+
+.skillz {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+
+}
+
+.minortab {
+    border-bottom: goldenrod solid 5px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.skillstopic3 {
+    color: #1f1f2e;
+    padding: 35px;
+    margin: 2px;
+    flex: 1;
+    background-color: white;
+}
+
+.skillstopic2 {
+    color: #1f1f2e;
+    padding: 35px;
+    margin: 2px;
+    flex: 1;
+    background-color: teal;
+}
+
+/* -------------------------------------------------------------------------- */
 .spec {
     font-size: 20px;
 }
@@ -287,7 +341,17 @@ i {
     color: #1f1f2e;   
 }
 
-
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
 
 
 /*Resizing Images and font to ensure site is responsive to different screen sizes. Allow user to shrink page (keep site readable)*/
