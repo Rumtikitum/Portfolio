@@ -97,7 +97,17 @@ body {
     font-weight: bold;
 }
 
-
+.container-7 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f1f2e;
+    color: aliceblue;
+    
+}   
+    
+.container-2 section {    
+    flex-direction: row;
+}
 
 /*About me Begins*/
 
@@ -353,6 +363,10 @@ i {
     height: 50px;
   }
 
+
+#gold {
+    color: gold;
+}
 
 /*Resizing Images and font to ensure site is responsive to different screen sizes. Allow user to shrink page (keep site readable)*/
 /*Allow items to be horizontal or verticle depending on screen size*/
