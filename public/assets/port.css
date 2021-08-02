@@ -274,14 +274,14 @@ i {
 
 /*Projext location. Currently only one project to my name*/
 
-#projects {
+/* #projects {
     display: flex;
     background-color: #1f1f2e;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 150px;
 
-}
+} */
 
 .PROJECT {
     flex: 1;
